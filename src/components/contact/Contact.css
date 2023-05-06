@@ -1,0 +1,54 @@
+.connectme {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  align-items: center;
+}
+.connectme button {
+  font-weight: 600;
+  font-size: 25px;
+  color: #343434;
+  background: #53ffe0;
+  padding: 10px !important;
+  border-radius: 12px;
+  border: none;
+}
+.connectme span {
+  font-weight: 300;
+  font-size: 16px;
+}
+.connectemail {
+  text-decoration: none;
+  color: black;
+}
+.iconss {
+  display: flex;
+  gap: 50px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 62px;
+}
+.stevejobs {
+  display: flex;
+  align-items: center;
+}
+.stevejobs span {
+  font-weight: 600;
+  font-size: 25px;
+}
+.footerlove span {
+  color: red;
+}
+.footerlove {
+  font-weight: 600;
+  font-size: 25px;
+  color: #343434;
+}
+.uikit {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7d7d7d;
+}

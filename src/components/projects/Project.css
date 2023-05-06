@@ -1,0 +1,50 @@
+.projectcontainer {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+}
+
+.projectdce {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.projects {
+  max-width: 652px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.spotfinder {
+  display: flex;
+  gap: 15px;
+}
+.projectImage {
+  flex: 1;
+}
+.projectdce {
+  flex: 1;
+}
+.projecttile {
+  font-weight: 600;
+  font-size: 30px;
+}
+.projectdeccription {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.projectcasestudy a {
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.ptitle {
+  font-weight: 700;
+  font-size: 14px;
+  color: rgba(74, 87, 111, 0.7);
+}

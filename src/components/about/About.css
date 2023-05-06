@@ -1,0 +1,19 @@
+.aboutcontainer {
+  display: flex;
+  justify-content: center;
+}
+.aboutsection {
+  max-width: 590px;
+  display: flex;
+  flex-direction: column;
+}
+.aboutsection span {
+  font-weight: 700;
+  font-size: 14px;
+  color: rgba(74, 87, 111, 0.7);
+}
+.aboutsection p {
+}
+.aboutsection p a {
+  text-decoration: none;
+}

@@ -1,0 +1,30 @@
+.quotescontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.quotes {
+  max-width: 816px;
+}
+.myprojectstitle {
+  font-weight: 700;
+  font-size: 14px;
+  color: rgba(74, 87, 111, 0.7);
+  opacity: 0.6;
+}
+.firstrow {
+  display: flex;
+  gap: 50px;
+}
+.firstcol {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.secondcol {
+  flex: 1.58;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
