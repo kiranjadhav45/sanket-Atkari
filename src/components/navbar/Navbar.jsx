@@ -1,6 +1,9 @@
+import { useState } from "react";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const [showNav, setShowNav] = useState(true);
+
   return (
     <div className="navbarimageadd">
       {/* <img
@@ -10,14 +13,81 @@ const Navbar = () => {
       /> */}
       <div className="navbarandabout ">
         <div className="navbar mt-2">
-          <div className="navname navsanket  py-2">Sanket.</div>
+          <div className="navsanket mx-2 py-2">Sanket.</div>
           <div className="navname py-2">about</div>
           <div className="navname py-2">projects</div>
           <div className="navname py-2">connect</div>
-          <div className="navname py-2">more</div>
-          {/* <div className="navname py-2">icon</div> */}
+          <div className="navname py-2 mx-3">more</div>
+          <div className="navbtn mx-3 py-2">
+            <a href="https://twitter.com/AtkariSanket" target="_blank">
+              <img
+                width={16}
+                src="https://i.ibb.co/n0rrk1Y/twitter.png"
+                alt="twitter"
+                border="0"
+              />
+            </a>
+            <a href="https://www.instagram.com/sanket_atkari/" target="_blank">
+              <img
+                width={16}
+                src="https://i.ibb.co/Sf834ZK/insta.png"
+                alt="insta"
+                border="0"
+              />
+            </a>
+            <hr className="verticalline" />
+            <a>
+              <img
+                onClick={() => {
+                  setShowNav(!showNav);
+                }}
+                width={16}
+                src="https://i.ibb.co/8PZ7pLw/hamburger.png"
+                alt="hamburger"
+                border="0"
+              />
+            </a>
+          </div>
         </div>
       </div>
+      {showNav && (
+        <div className="nav-list-container">
+          <div className="nav-list">
+            <div
+              onClick={() => {
+                setShowNav(!showNav);
+              }}
+              className="mx-4 mt-4"
+            >
+              about
+            </div>
+            <div
+              onClick={() => {
+                setShowNav(!showNav);
+              }}
+              className="mx-4"
+            >
+              projects
+            </div>
+            <div
+              onClick={() => {
+                setShowNav(!showNav);
+              }}
+              className="mx-4"
+            >
+              connect
+            </div>
+            <div
+              onClick={() => {
+                setShowNav(!showNav);
+              }}
+              className="mx-4 mb-4"
+            >
+              more
+            </div>
+          </div>
+        </div>
+      )}
       <div className="profilephotocontainer">
         <div className="profilephoto d-flex ">
           <div className="profileimage ">
@@ -38,7 +108,10 @@ const Navbar = () => {
       <div className="socialLink mt-4">
         <div className="socialmedia">SOCIAL MEDIA</div>
         <div className="socialmediaicons">
-          <a href="">
+          <a
+            href="https://www.linkedin.com/in/sanket-atkari-014a25251/"
+            target="_blank"
+          >
             <img
               width={33}
               src="https://i.ibb.co/0Mqfbnr/iconoir-linkedin.png"
@@ -46,7 +119,7 @@ const Navbar = () => {
               border="0"
             />
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/sanket_atkari/" target="_blank">
             <img
               width={33}
               src="https://i.ibb.co/T1Vvvkh/Icon-1.png"
@@ -54,7 +127,7 @@ const Navbar = () => {
               border="0"
             />
           </a>
-          <a href="">
+          <a href="https://wa.me/9561356532?text=Hello" target="_blank">
             <img
               width={33}
               src="https://i.ibb.co/5rTtHfg/whatsapp.png"

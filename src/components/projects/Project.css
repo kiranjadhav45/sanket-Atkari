@@ -48,3 +48,47 @@
   font-size: 14px;
   color: rgba(74, 87, 111, 0.7);
 }
+.btnviewmore {
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+.btnviewmore button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 13px;
+  border: none;
+  background: #53ffe0;
+  border-radius: 4px;
+  width: 133px;
+  height: 30px;
+}
+.projectcasestudy img {
+  width: 13px;
+}
+@media screen and (max-width: 600px) {
+  .projecttile {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .projectdeccription {
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .projectcasestudy a {
+    font-weight: 400;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+  }
+  .projectcasestudy img {
+    width: 8.19px;
+  }
+}
+.btnviewmore button a {
+  text-decoration: none;
+  color: black;
+}

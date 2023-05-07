@@ -9,12 +9,14 @@
 }
 .connectme button {
   font-weight: 600;
-  font-size: 25px;
+  font-size: 13px;
   color: #343434;
   background: #53ffe0;
   padding: 10px !important;
   border-radius: 12px;
   border: none;
+  width: 123px;
+  height: 36px;
 }
 .connectme span {
   font-weight: 300;
@@ -65,4 +67,63 @@
   font-weight: 400;
   font-size: 16px;
   color: #7d7d7d;
+}
+@media screen and (max-width: 600px) {
+  .stevejobs span {
+    font-weight: 600;
+    font-size: 15px;
+    background: linear-gradient(
+      90.17deg,
+      #309afc -3.08%,
+      #5754ff 31.4%,
+      #ff51a4 65.89%,
+      #ff7c51 100.37%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .footerlove {
+    font-weight: 600;
+    font-size: 13px;
+    color: #343434;
+  }
+  .uikit {
+    font-weight: 400;
+    font-size: 12px;
+    color: #7d7d7d;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+  }
+  .connectme {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    align-items: center;
+  }
+  .connectme button {
+    font-weight: 600;
+    font-size: 13px;
+    color: #343434;
+    background: #53ffe0;
+    padding: 10px !important;
+    border-radius: 12px;
+    border: none;
+    width: 123px;
+    height: 36px;
+  }
+  .connectme span {
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .connectemail {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+  }
 }

@@ -18,30 +18,42 @@ const Contact = () => {
           </a>
         </div>
         <div className="iconss mt-4">
-          <img
-            width={25}
-            src="https://i.ibb.co/KWkhMBs/Vector-1.png"
-            alt="Vector-1"
-            border="0"
-          />
-          <img
-            width={25}
-            src="https://i.ibb.co/sF5hZNg/Group.png"
-            alt="Group"
-            border="0"
-          />
-          <img
-            width={25}
-            src="https://i.ibb.co/vX3TmNR/Group-1.png"
-            alt="Group-1"
-            border="0"
-          />
-          <img
-            width={25}
-            src="https://i.ibb.co/vhFtvwD/Group-2.png"
-            alt="Group-2"
-            border="0"
-          />
+          <a href=" https://www.instagram.com/sanket_atkari/" target="_blank">
+            <img
+              width={25}
+              src="https://i.ibb.co/KWkhMBs/Vector-1.png"
+              alt="Vector-1"
+              border="0"
+            />
+          </a>
+          <a href="https://twitter.com/AtkariSanket" target="_blank">
+            <img
+              width={25}
+              src="https://i.ibb.co/sF5hZNg/Group.png"
+              alt="Group"
+              border="0"
+            />
+          </a>
+
+          <a href=" https://www.behance.net/sanketatkari" target="_blank">
+            <img
+              width={25}
+              src="https://i.ibb.co/vX3TmNR/Group-1.png"
+              alt="Group-1"
+              border="0"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sanket-atkari-014a25251/"
+            target="_blank"
+          >
+            <img
+              width={25}
+              src="https://i.ibb.co/vhFtvwD/Group-2.png"
+              alt="Group-2"
+              border="0"
+            />
+          </a>
         </div>
       </div>
       <div className="footer my-5">
