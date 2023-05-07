@@ -2,12 +2,12 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div>
-      <img
+    <div className="navbarimageadd">
+      {/* <img
         className="headergradient img-fluid"
         src="../../../public/header-gradient.svg"
         alt=""
-      />
+      /> */}
       <div className="navbarandabout ">
         <div className="navbar mt-2">
           <div className="navname navsanket  py-2">Sanket.</div>

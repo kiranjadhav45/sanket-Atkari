@@ -1,3 +1,6 @@
+.containerr {
+  background-image: url("https://i.ibb.co/LpJ6Pyj/footer-background.png");
+}
 .connectme {
   display: flex;
   flex-direction: column;
@@ -38,6 +41,17 @@
 .stevejobs span {
   font-weight: 600;
   font-size: 25px;
+  background: linear-gradient(
+    90.17deg,
+    #309afc -3.08%,
+    #5754ff 31.4%,
+    #ff51a4 65.89%,
+    #ff7c51 100.37%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 .footerlove span {
   color: red;
