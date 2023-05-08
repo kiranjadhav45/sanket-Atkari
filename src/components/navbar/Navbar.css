@@ -1,5 +1,6 @@
 .navbarimageadd {
   background-image: url("https://i.ibb.co/YZyQLJp/header-gradient.png");
+  background-size: auto;
 }
 
 .headergradient {
@@ -71,8 +72,18 @@
 .navsanket {
   font-weight: 700;
   font-size: 22px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   cursor: pointer;
+  background-image: linear-gradient(
+    90.17deg,
+    #309afc -3.08%,
+    #5754ff 31.4%,
+    #ff51a4 65.89%,
+    #ff7c51 100.37%
+  );
+  background-size: 100% 4px;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 .navname {
   display: block;

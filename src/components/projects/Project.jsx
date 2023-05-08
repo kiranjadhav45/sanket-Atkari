@@ -4,7 +4,7 @@ const Project = ({ type }) => {
   return (
     <div className="projectcontainer">
       <div className="projects">
-        {!type && <div className="ptitle">PROJECTS</div>}
+        {!type && <div className="ptitle mx-2">PROJECTS</div>}
 
         {/* project One */}
 
@@ -62,7 +62,7 @@ const Project = ({ type }) => {
               daily horoscope
             </div>
 
-            <div className="projectcasestudy">
+            <div className="projectcasestudy d-none">
               <a href="">View case study</a>
               <img
                 className="mx-2 img-fluid"
@@ -92,7 +92,7 @@ const Project = ({ type }) => {
               more.....
             </div>
 
-            <div className="projectcasestudy">
+            <div className="projectcasestudy d-none">
               <a href="">View case study</a>
               <img
                 className="mx-2 img-fluid"

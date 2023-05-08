@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="aboutcontainer">
       <div className="aboutsection">
-        <span>ABOUT ME</span>
+        <span className="mx-2">ABOUT ME</span>
         <p className="mt-4">
           I am sanket atkari ! I completed my bachelor's degree in science in
           2022 and I completed <b> Google UX Design </b>certified course .

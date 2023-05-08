@@ -4,7 +4,7 @@ const Quotes = () => {
   return (
     <div className="quotescontainer">
       <div className="quotes">
-        <div className="myprojectstitle mb-5">MY favorite quotes </div>
+        <div className="myprojectstitle mb-5 mx-2">MY favorite quotes </div>
         <div className="firstrow">
           <div className="firstcol">
             <div>

@@ -16,9 +16,9 @@ const Contact = ({ type }) => {
             />
             <a
               className="mx-1 connectemail"
-              href="mailto:sanketdesktop@gmai.com"
+              href="mailto:sanketdesktop@gmail.com"
             >
-              sanketdesktop@gmai.com
+              sanketdesktop@gmail.com
             </a>
           </div>
           <div className="iconss mt-4">
