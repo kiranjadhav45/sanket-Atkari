@@ -1,41 +1,46 @@
 import "./Project.css";
 
-const Project = () => {
+const Project = ({ type }) => {
   return (
     <div className="projectcontainer">
       <div className="projects">
-        <div className="ptitle">PROJECTS</div>
-        {/* project One */}
-        <div className="spotfinder">
-          <div className="projectImage">
-            <img
-              width={342}
-              className="img-fluid"
-              src="https://i.ibb.co/88TQpMG/headimage.png"
-              alt="headimage"
-              border="0"
-            />
-          </div>
-          <div className="projectdce">
-            <div className="projecttile">SpotFinder</div>
-            <div className="projectdeccription">
-              Spotfinder App is a platform that help user to find there new
-              business location spot in offline market
-            </div>
+        {!type && <div className="ptitle">PROJECTS</div>}
 
-            <div className="projectcasestudy">
-              <a
-                href="https://drive.google.com/file/d/1PqNKLakm__tiP8j-CmTLzYoUrJ6dvSJh/view?usp=sharing"
-                target="_blank"
-              >
-                View case study
-              </a>
+        {/* project One */}
+
+        <div>
+          {type && <div className="seondproject">PROJECTS</div>}
+          <div className="spotfinder">
+            <div className="projectImage">
               <img
-                className="mx-2 img-fluid"
-                src="https://i.ibb.co/Wz64jgX/Vector.png"
-                alt="Vector"
+                width={342}
+                className="img-fluid"
+                src="https://i.ibb.co/88TQpMG/headimage.png"
+                alt="headimage"
                 border="0"
               />
+            </div>
+            <div className="projectdce">
+              <div className="projecttile">SpotFinder</div>
+              <div className="projectdeccription">
+                Spotfinder App is a platform that help user to find there new
+                business location spot in offline market
+              </div>
+
+              <div className="projectcasestudy">
+                <a
+                  href="https://drive.google.com/file/d/1PqNKLakm__tiP8j-CmTLzYoUrJ6dvSJh/view?usp=sharing"
+                  target="_blank"
+                >
+                  View case study
+                </a>
+                <img
+                  className="mx-2 img-fluid"
+                  src="https://i.ibb.co/Wz64jgX/Vector.png"
+                  alt="Vector"
+                  border="0"
+                />
+              </div>
             </div>
           </div>
         </div>

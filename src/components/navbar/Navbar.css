@@ -72,9 +72,16 @@
   font-weight: 700;
   font-size: 22px;
   text-decoration: underline;
+  cursor: pointer;
 }
 .navname {
   display: block;
+  text-decoration: none;
+}
+
+.navlinks {
+  text-decoration: none;
+  color: black;
 }
 .navbtn {
   display: none;

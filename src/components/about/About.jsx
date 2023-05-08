@@ -14,7 +14,12 @@ const About = () => {
           looking to grow and explore the field of UX UI Design with experts and
           users. Look at my{" "}
           <b>
-            <a href="">resume</a>
+            <a
+              href="https://drive.google.com/file/d/1Xtoza32jrxHMtrzpG7JFn6Le5fgjD7Ji/view?usp=drivesdk"
+              target="_blank"
+            >
+              resume
+            </a>
           </b>
         </p>
       </div>

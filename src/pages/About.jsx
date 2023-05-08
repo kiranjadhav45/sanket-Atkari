@@ -1,20 +1,16 @@
+import "./Page.css";
 import Navbar from "../components/navbar/Navbar";
 import About from "../components/about/About";
-import "./Page.css";
-import Project from "../components/projects/Project";
-import Quotes from "../components/quotes/Quotes";
 import Contact from "../components/contact/Contact";
 
-const Home = () => {
+const AboutPage = () => {
   return (
     <div className="mx-1 homecontainer">
       <Navbar />
       <About />
-      <Project />
-      <Quotes />
-      <Contact />
+      <Contact type="hide" />
     </div>
   );
 };
 
-export default Home;
+export default AboutPage;
