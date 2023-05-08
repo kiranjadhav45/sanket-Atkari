@@ -125,7 +125,7 @@ const Navbar = ({ type }) => {
                 />
               </div>
               <div className="profileimage d-flex flex-column gap-2">
-                <span className="navbarname">Hello, Namaste, </span>
+                <span className="navbarname">Hello, Namaste </span>
                 <span className="imsanket">I’m Sanket Atkari</span>
                 <span className="navuiuxdesign">Design. UX UI </span>
               </div>
