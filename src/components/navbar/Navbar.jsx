@@ -9,11 +9,6 @@ const Navbar = ({ type }) => {
 
   return (
     <div className="navbarimageadd">
-      {/* <img
-        className="headergradient img-fluid"
-        src="../../../public/header-gradient.svg"
-        alt=""
-      /> */}
       <div className="navbarandabout ">
         <div className="navbar mt-2">
           <div className="navsanket mx-2 py-2" onClick={() => navigate("/")}>
