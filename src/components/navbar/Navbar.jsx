@@ -110,7 +110,7 @@ const Navbar = ({ type }) => {
       {!type && (
         <div>
           <div className="profilephotocontainer">
-            <div className="profilephoto d-flex ">
+            <div className="profilephoto">
               <div className="profileimage ">
                 <img
                   width={96}

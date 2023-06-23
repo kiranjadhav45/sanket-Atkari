@@ -80,20 +80,23 @@ const Project = ({ type }) => {
             <img
               width={342}
               className="img-fluid"
-              src="https://i.ibb.co/GdRtWwx/Frame-2039.png"
+              src="https://i.ibb.co/HhH5v00/noqueue.png"
               alt="Frame-2039"
               border="0"
             />
           </div>
           <div className="projectdce">
-            <div className="projecttile">Think like Dhoni</div>
+            <div className="projecttile">Noqueue</div>
             <div className="projectdeccription">
-              how do competitive analysis like dhoni observe designs and many
-              more.....
+              It is application that help the customers to make grocery or
+              product ordering process easier and contactless in local shops on
+              ordering online
             </div>
 
-            <div className="projectcasestudy d-none">
-              <a href="">View case study</a>
+            <div className="projectcasestudy ">
+              <a href="https://drive.google.com/file/d/1h33LqaaU3LUIudZAOZCQcI7fvLl24xcN/view?usp=sharing">
+                View case study
+              </a>
               <img
                 className="mx-2 img-fluid"
                 width={13}
