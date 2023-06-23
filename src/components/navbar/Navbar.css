@@ -21,7 +21,7 @@
 }
 .profilephoto {
   display: flex;
-  gap: 10px;
+  gap: 25px;
   margin-top: 90px !important;
   z-index: 1;
 }
@@ -47,13 +47,14 @@
   font-weight: 200;
   font-size: 12px;
 }
+
 .socialLink {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 50px;
+  gap: 30px;
 }
 .socialmediaicons {
+  margin: 20px 0;
   display: flex;
   gap: 20px;
 }

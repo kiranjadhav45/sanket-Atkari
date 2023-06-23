@@ -123,42 +123,46 @@ const Navbar = ({ type }) => {
                 <span className="navbarname">Hello, Namaste </span>
                 <span className="imsanket">I’m Sanket Atkari</span>
                 <span className="navuiuxdesign">Design. UX UI </span>
+
+                <div className="socialLink mt-2">
+                  <div className="socialmedia">SOCIAL MEDIA</div>
+                  <div className="socialmediaicons">
+                    <a
+                      href="https://www.linkedin.com/in/sanket-atkari-014a25251/"
+                      target="_blank"
+                    >
+                      <img
+                        width={33}
+                        src="https://i.ibb.co/0Mqfbnr/iconoir-linkedin.png"
+                        alt="iconoir-linkedin"
+                        border="0"
+                      />
+                    </a>
+                    <a
+                      href="https://www.instagram.com/sanket_atkari/"
+                      target="_blank"
+                    >
+                      <img
+                        width={33}
+                        src="https://i.ibb.co/T1Vvvkh/Icon-1.png"
+                        alt="Icon-1"
+                        border="0"
+                      />
+                    </a>
+                    <a
+                      href="https://wa.me/9561356532?text=Hello"
+                      target="_blank"
+                    >
+                      <img
+                        width={33}
+                        src="https://i.ibb.co/5rTtHfg/whatsapp.png"
+                        alt="whatsapp"
+                        border="0"
+                      />
+                    </a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div className="socialLink mt-4">
-            <div className="socialmedia">SOCIAL MEDIA</div>
-            <div className="socialmediaicons">
-              <a
-                href="https://www.linkedin.com/in/sanket-atkari-014a25251/"
-                target="_blank"
-              >
-                <img
-                  width={33}
-                  src="https://i.ibb.co/0Mqfbnr/iconoir-linkedin.png"
-                  alt="iconoir-linkedin"
-                  border="0"
-                />
-              </a>
-              <a
-                href="https://www.instagram.com/sanket_atkari/"
-                target="_blank"
-              >
-                <img
-                  width={33}
-                  src="https://i.ibb.co/T1Vvvkh/Icon-1.png"
-                  alt="Icon-1"
-                  border="0"
-                />
-              </a>
-              <a href="https://wa.me/9561356532?text=Hello" target="_blank">
-                <img
-                  width={33}
-                  src="https://i.ibb.co/5rTtHfg/whatsapp.png"
-                  alt="whatsapp"
-                  border="0"
-                />
-              </a>
             </div>
           </div>
         </div>
