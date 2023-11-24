@@ -128,8 +128,7 @@ const Navbar = ({ type }) => {
                   <div className="socialmedia">SOCIAL MEDIA</div>
                   <div className="socialmediaicons">
                     <a
-                      href="https://www.linkedin.com/in/sanket-atkari-014a25251/"
-                      target="_blank"
+                      href="#"
                     >
                       <img
                         width={33}

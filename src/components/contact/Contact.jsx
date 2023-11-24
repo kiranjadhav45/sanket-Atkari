@@ -48,8 +48,7 @@ const Contact = ({ type }) => {
               />
             </a>
             <a
-              href="https://www.linkedin.com/in/sanket-atkari-014a25251/"
-              target="_blank"
+              href="#"
             >
               <img
                 width={25}
